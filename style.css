@@ -3,7 +3,9 @@
     padding: 0px;
 }
 body{
-    
+    margin: 0;
+    padding:0;
+    line-height: 0.5;
     background:linear-gradient(to left,#ffd89b, #19547b);
     font-family: sans-serif;
 }
@@ -24,35 +26,20 @@ h3{
     color:white;
 }
 
-.calci{
-    width: 500px;
-    padding-top: 100px;
-    padding-bottom: 100;
-    position: absolute;
-    top:55%;
-    left:50%;
-    transition:0.25px;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-
 #zero{
-height: 55;
-width: 126;
+height: 58;
+width: 58;
 font-size: 2,5em;
 font-family: sans-serif;
 font-weight: 300;
 background-color: red;
-margin: 10px;
-padding: 10px;;
 }
 
 #main{
-    width: 374px;
-    height:68vh;
+    /* width: 374px; */
+    height: 95vh;
     background-color: white;
-    margin-left: 36%;
-    margin-top: 5% ;
+    /* margin-left: 36%; */
     border-radius: 10px;
 }
 
@@ -61,17 +48,31 @@ padding: 10px;;
     border:none;
     background:red;
     border-radius: 8px 8px 0px 0px;
-    width: 74.8%;
+    width: 107%;
     font-size:2.5em;
     font-family: sans-serif;
     font-weight: 550;
     height: 20vh;
-    margin-left: -0.5%;
-    background-color: red;
+    margin-left: -3.5%;
+    background-color: darkblue;
     border:2px solid white(5, 218, 255, 0.726);
     color: rgb(55, 55, 55);
 }
-
+.button{
+    width: 58;
+    height: 58;
+    font-size: 2em;
+    border: none;
+    background: rgb(182, 179, 179);
+    font-family: sans-serif;
+    font-weight: bold;
+    border:0;
+    border-radius: 30px;
+    margin: -10px 2px 0px 30px;
+    transition:0.25px;
+    cursor: pointer;
+    
+}
 
 h1{
     
@@ -90,7 +91,6 @@ h1{
 .operator{
     width: 58;
     height: 58;
-    padding-top: -1;
     font-size: 2em;
     text-align: center;
     color: black;
@@ -106,5 +106,37 @@ h1{
     
 }
 
+.button:hover{
+    background: rgb(13, 238, 189);
+}
 
+.operator:hover{
+    background: #282fee;
+}
 
+#fb:hover{
+    color: blue;
+}
+
+#linkedin:hover{
+    color: darkblue;
+}
+#github:hover{
+    color: grey;    
+}
+
+#insta:hover{
+    color: rgb(241, 43, 76);
+}
+
+#tweet:hover{
+    color:#1DA1F2;
+}
+
+#zero:hover{
+background-color:rgb(247, 29, 29);
+}
+
+#mail:hover{
+    color: BB001B;
+}
