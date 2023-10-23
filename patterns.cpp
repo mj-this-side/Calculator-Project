@@ -107,3 +107,35 @@ Do you want to continue(y/Y): n
 --------------------------------
 Process exited after 15.85 seconds with return value 0
 Press any key to continue . . .*/
+
+/*
+----------STAR PYRAMID-----------
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+	cin>>n;
+	
+	for(int i=1; i<=n; i++){
+		//triangle 1
+			for(int j=1; j<=(n-i);j++){
+				cout<<"  ";
+			}
+			
+			//triangle 2
+			for(int s=1; s<=((2*i)-1); s++){
+				cout<<"* ";
+			}
+			
+//			//triangle 3
+//			for(int j=n-i+1; j>=1;j--){
+//				cout<<j<<" ";
+//			}
+			
+		cout<<endl;
+		}
+	return 0;
+}
+*/
